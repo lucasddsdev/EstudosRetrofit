@@ -58,9 +58,8 @@ class MainActivity : AppCompatActivity() {
                 val endereco = retorno.body()
                 val rua = endereco?.logradouro
                 val cidade = endereco?.localidade
-                val c3p = endereco?.cep
 
-                Log.i("info_endereço:", "endereco: $rua , $cidade, $c3p")
+                Log.i("info_endereço:", "endereco: $rua , $cidade")
 
             }
 
